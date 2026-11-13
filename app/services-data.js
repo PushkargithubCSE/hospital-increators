@@ -1,0 +1,15 @@
+export const SERVICES_OFFERED = [
+  { t: "Business Case Plan", items: ["Feasibility Study", "Market Research", "Project Feasibility", "Speciality Mix", "Bed Type Mix", "Financial viability and breakeven", "DPR Preparation", "Risk identification and Mitigation", "Recommendation"] },
+  { t: "Hospital Statutes and Compliances", items: ["Building Statutes", "Environmental Safety", "Radiation Safety", "Operational Status"] },
+  { t: "Planning and Designing", items: ["Master Planning", "Functional Planning", "Area Program", "Architectural Services", "Medical (Mechanical, Electrical & Plumbing) MEP Services"] },
+  { t: "Project Coordination", items: ["Client facing and project monitoring", "Timeline adherence", "Periodic Site Visits- Deviation Alert"] },
+  { t: "Peer Review Services", items: ["Peer review of green field projects with respect to architectural, equipment, services and statutes", "Peer review for Hospital IT", "Planning in line with best medical practices."] },
+  { t: "Hospital Commissioning", items: ["Prelaunch Activities", "Launch Activities", "Post-Launch Activities"] },
+  { t: "Hospital Operations", items: ["360°/ End-to-end", "Governance", "Organisational framework including Board of Governors, Chief Executive Officers, teams with detailed organogram.", "Scope of services", "Manuals, policies and workflows.", { t: "Manpower Planning", sub: ["Human Resource", "Medical Consultant"] }, "Technology", "Cost Containment", "Conflict Resolution", "Learning & Development", "Quality", "Labs and Radiology", "OPD and OT Management", "Revenue Centre", "Optimization of financial performance", "Revenue Cycle Management", "Billing Optimisation", "Cost Control viz-à-viz best clinical Practice"] },
+  { t: "IT and Digital Transformation", items: ["Software (HIS, EMR, ERP, HRMS and PACS) & Hosting", "Needs Assessment", "Defining Workflow", "SRS & FRS", "Product Shortlisting", "Product Selection", "Implementation and Support", "Management Information System", "Website Designing"] },
+  { t: "Marketing and PR Services", items: ["Marketing strategy and Brand positioning", "Digital Marketing", "Social Media handling", "Content Creation", "Doctor Branding", "Service launch", "Website & SEO"] },
+  { t: "Biomedical Services", items: ["Medical Gas Pipeline System (MGPS)", "Operation Theatre (OT)", "Central Sterile Supply Department (CSSD)", "Nurse Call System (NCS)", "Pneumatic Tube System (PTS)"] },
+  { t: "Biomedical Equipment", items: ["Strategic Planning", "Procurement Phasing", "Budgeting", "Specifications, tender and technical evaluation.", "Procurement Support", "Technological Mix", "IT Integration", "Heat & electrical load", "Installation support & Coordination"] },
+  { t: "Business Development and Strategy", items: ["Business Modelling", "Service launch", "SOC & Pricing policies", "Hospital strategy formulation", { t: "Outsourcing of services", sub: ["MoU", "SLA"] }, "Consultant onboarding mechanism"] },
+  { t: "Hospital Relaunch", items: ["Gap Analysis", "Suggestions/Strategy", "Implementation", "Relaunch", "Monitoring", "Process improvement", "MIS"] },
+];
