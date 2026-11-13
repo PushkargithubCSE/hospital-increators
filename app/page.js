@@ -3,7 +3,9 @@ import { useEffect, useRef, useState } from "react";
 import ServicesOffered from "./ServicesOffered";
 import Projects from "./Projects";
 
-import Island, { Mark } from "./components/Island";
+
+import Island from "./components/Island";
+import Footer from "./components/Footer";
 
 /* Logo mark: four gradient petals + cream cross, matching the supplied logo */
 /*function Mark({ size = 30 }) {
@@ -251,22 +253,7 @@ With over 7 years of experience at AIIMS, he has served in key leadership roles,
           <ServicesOffered />
         </section>
 
-        <section id="results">
-          <div className="stats">
-            {[["120+", "hospitals and clinics advised"], ["18", "cities served across India"], ["40%", "faster launch with our playbooks"]].map(([n, l]) => (
-              <div key={l} className="stat glass rv"><b>{n}</b><span>{l}</span></div>
-            ))}
-          </div>
-        </section>
-
-        <section id="process">
-          <div className="head rv"><h2>How we work with you</h2><p>A clear path, with a decision point at every step.</p></div>
-          <div className="steps">
-            {[["Discover", "A free call to understand your goals and constraints."], ["Assess", "We study demand, costs and risks, then share a clear report."], ["Build", "Planning, equipment, hiring and approvals, handled with you."], ["Operate", "We stay on to run, measure and improve."]].map(([t, p]) => (
-              <div key={t} className="step glass rv"><h3>{t}</h3><p>{p}</p></div>
-            ))}
-          </div>
-        </section>
+      
 
         <section id="consult">
           <div className="consult">
@@ -278,10 +265,7 @@ With over 7 years of experience at AIIMS, he has served in key leadership roles,
           </div>
         </section>
       </main>
-      <footer>
-        <span style={{ display: "flex", alignItems: "center", gap: 10 }}><Mark size={24} />The Hospital Increators</span>
-        <span>Insight · Advise · Create · Operate</span>
-      </footer>
+            <Footer />
     </>
   );
 }

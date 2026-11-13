@@ -1,5 +1,6 @@
 import Link from "next/link";
-import Island, { Mark } from "../components/Island";
+import Island from "../components/Island";
+import Footer from "../components/Footer";
 import { ABOUT_LINKS } from "../components/aboutLinks";
 
 export default function AboutLayout({ children }) {
@@ -15,10 +16,7 @@ export default function AboutLayout({ children }) {
           ))}
         </nav>
       </main>
-      <footer>
-        <span style={{ display: "flex", alignItems: "center", gap: 10 }}><Mark size={24} />The Hospital Increators</span>
-        <span>Insight · Advise · Create · Operate</span>
-      </footer>
+      <Footer />
     </>
   );
 }
