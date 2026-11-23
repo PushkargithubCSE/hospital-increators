@@ -161,7 +161,7 @@ export default function Page() {
 
             <div className="yc-photo">
               <img src="/images/photo.png" alt="Dr. Arun Verma" />
-              <div className="yc-tag"><b>Dr. Arun Verma</b><span>MBBS · DNB · MBA · FISQua</span></div>
+              <div className="yc-tag"><b>Dr. Arun Verma</b><span>MBBS | DNB (Gold Medalist) | PGDHHM | CDM | MNAMS | CORe (HBS) | Fellow, ISQua | NABH & NQAS Assessor | Guinness Record Holder</span></div>
             </div>
           </div>
         </section>

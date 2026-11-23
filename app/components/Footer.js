@@ -6,8 +6,8 @@ import { Mark } from "./Island";
 // Replace these with your real details
 const LINKEDIN_URL = "#"; // e.g. "https://www.linkedin.com/company/your-page"
 const X_URL = "#";        // e.g. "https://x.com/your-handle"
-const PHONE = "123456789";
-const EMAIL = "info@hospitalincreators.com";
+const PHONE = "9205552809";
+const EMAIL = "thehospitalincreators@gmail.com";
 
 function Logo() {
   const [bad, setBad] = useState(false);

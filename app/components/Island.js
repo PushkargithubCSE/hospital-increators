@@ -77,6 +77,8 @@ export default function Island() {
             About Us
           </Link>
           <Link href="/#services">Services</Link>
+                    <Link href="/about/team">Team</Link>
+
         </nav>
         <Link href="/#consult" className="btn sm">Book a call</Link>
       </header>
