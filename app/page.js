@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import ServicesOffered from "./ServicesOffered";
 import Projects from "./Projects";
-
+import Link from "next/link";
 
 import Island from "./components/Island";
 import Footer from "./components/Footer";
@@ -141,109 +141,31 @@ export default function Page() {
       <Island />
       <main id="top">
        
-<section
-  className="hero"
-  style={{
-    paddingTop: 130,
-    textAlign: "left"
-  }}
->
-  <div
-    style={{
-  display: "flex",
-  flexWrap: "wrap",
-  alignItems: "center",
-  justifyContent: "space-between",
-  gap: 35,
-  width: "calc(100% + 90px)",
-  maxWidth: 1250,
-  margin: "0 0 0 -45px"
-}}
-  >
+        <section className="yc-hero">
+          <div className="yc-card">
+            <div className="yc-copy">
+              <span className="yc-pill"><b />Hospital consulting, end to end</span>
+              <h1>Hospitals planned, built and run right.</h1>
+              <p className="yc-quote">
+                Dr. Arun Verma is a distinguished healthcare leader with qualifications including MBBS, DNB (Gold Medalist),
+                MBA, and Fellow ISQua, and is a former faculty member at AIIMS, New Delhi. With over 7 years of experience
+                at AIIMS, he has served in key leadership roles, including Faculty and Senior Consultant, Project Management
+                Unit. He brings extensive expertise in hospital planning, infrastructure development, commissioning,
+                operations, and digital transformation.
+              </p>
+              <div className="yc-actions">
+                <a href="#consult" className="yc-btn dark">Book a call</a>
+                <Link href="/about/dr-arun-verma" className="yc-btn line">Read more →</Link>
+              </div>
+            </div>
 
-    {/* LEFT SIDE - YOUR TRANSPARENT PHOTO */}
-
-    <div
-      style={{
-  flex: "1 1 400px",
-  minWidth: 0,
-  display: "flex",
-  justifyContent: "flex-start",
-  alignItems: "flex-end",
-  paddingLeft: 0
-}}
-    >
-      <img
-        src="/images/photo.png"
-        alt="Hospital Increators"
-        style={{
-  display: "block",
-  width: "100%",
-  maxWidth: 500,
-  maxHeight: 560,
-  height: "auto",
-  objectFit: "contain",
-  objectPosition: "bottom",
-  filter: "drop-shadow(0 18px 30px rgba(18,59,93,.15))"
-}}
-      />
-    </div>
-
-    {/* RIGHT SIDE - DESCRIPTION */}
-
-    <div
-      style={{
-  flex: "1 1 400px",
-  maxWidth: 560,
-  textAlign: "left",
-  padding: "20px 10px 20px 28px",
-  borderLeft: "3px solid rgba(8,126,139,.45)"
-}}
-    >
-       
-
-      <p
-        style={{
-  margin: 0,
-  maxWidth: "none",
-  fontSize: 18,
-  lineHeight: 1.85,
-  letterSpacing: ".15px",
-  color: "var(--muted)",
-  fontWeight: 400
-}}
-      >
-        Dr. Arun Verma is a distinguished healthcare leader with qualifications including MBBS, DNB (Gold Medalist), MBA, and Fellow ISQua, and is a former faculty member at AIIMS, New Delhi.
-
-With over 7 years of experience at AIIMS, he has served in key leadership roles, including Faculty and Senior Consultant, Project Management Unit. He brings extensive expertise in hospital planning, infrastructure development, commissioning, operations, and digital transformation.
-      </p>
-
-      {showMore && (
-        <p
-          style={{
-            margin: "0 0 20px",
-            maxWidth: "none",
-            fontSize: 16,
-            lineHeight: 1.7,
-            color: "var(--muted)"
-          }}
-        >
-          He has contributed to planning 7,000+ hospital beds across projects worth over ₹20,000 crore and played a key role in the AIIMS Masterplan. He also led major digital transformation initiatives at AIIMS, managing IT projects worth ₹500+ crore.
-        </p>
-      )}
-
-      <button
-        type="button"
-        className="btn ghost"
-        onClick={() => setShowMore(!showMore)}
-      >
-        {showMore ? "Read less ↑" : "Read more →"}
-      </button>
-
-    </div>
-
-  </div>
-</section>
+            <div className="yc-photo">
+              <img src="/images/photo.png" alt="Dr. Arun Verma" />
+              <div className="yc-tag"><b>Dr. Arun Verma</b><span>MBBS · DNB · MBA · FISQua</span></div>
+            </div>
+          </div>
+        </section>
+  
 
 
                 <section id="projects">

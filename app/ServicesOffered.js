@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { SERVICES_OFFERED } from "./services-data";
-
+import Link from "next/link";
 const TONES = [
   "linear-gradient(135deg,#e23cf0,#c02bd8)",
   "linear-gradient(135deg,#e3a98b,#e8506e)",
@@ -43,6 +43,8 @@ export default function ServicesOffered() {
                       )
                     )}
                   </ol>
+                  {s.href && <Link href={s.href} className="acc-more">View full details →</Link>}
+
                 </div>
               </div>
             </div>

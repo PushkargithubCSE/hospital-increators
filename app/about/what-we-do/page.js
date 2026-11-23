@@ -3,21 +3,37 @@ import SubHero from "../../components/SubHero";
 
 export const metadata = { title: "What We Do — The Hospital Increators" };
 
-const ITEMS = [
-  ["Insight", "Feasibility, market and clinical-demand studies before you commit capital."],
-  ["Advise", "Independent guidance on strategy, accreditation and growth."],
-  ["Create", "Planning, design coordination and equipment for new or expanding hospitals."],
-  ["Operate", "Day-to-day management that keeps quality high and costs in check."],
-];
+
 
 export default function Page() {
   return (
     <>
-      <SubHero eyebrow="About Us" title="What We Do" lead="One team, from first idea to daily operations." />
-      <div className="cols">
-        {ITEMS.map(([t, p]) => (
-          <div key={t} className="glass panel"><h3>{t}</h3><p>{p}</p></div>
-        ))}
+      <SubHero eyebrow="About Us" title="What We Do" lead="Transforming Healthcare Vision into Operational Excellence." />
+      <div className="glass panel what-we-do-copy">
+        <p>
+          We deliver comprehensive, end-to-end healthcare consultancy and
+          strategic advisory services, partnering with healthcare investors,
+          promoters, hospital owners, and institutions throughout their journey
+          — from visionary concepts to successful commissioning, operational
+          excellence, and sustainable growth.
+        </p>
+        <p>
+          Our integrated expertise spans healthcare feasibility and business
+          strategy, hospital master planning and architectural design,
+          infrastructure development, project management, medical equipment
+          planning, regulatory advisory, hospital commissioning, digital
+          transformation, and operational optimisation.
+        </p>
+        <p>
+          By seamlessly integrating clinical expertise, strategic insight,
+          technological innovation, and management excellence, we create
+          intelligent, efficient, resilient, and future-ready healthcare
+          ecosystems.
+        </p>
+        <p className="what-we-do-tagline">
+          From concept to commissioning. From operational efficiency to
+          institutional excellence.
+        </p>
       </div>
       <p style={{ marginTop: 28 }}><Link href="/#services" className="btn">See all services</Link></p>
     </>
