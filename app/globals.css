@@ -1275,3 +1275,11 @@ button:disabled,
 .island .brand-logo{height:54px;width:auto;display:block;mix-blend-mode:multiply;transition:transform .4s var(--spring)}
 .island .brand:hover .brand-logo{transform:scale(1.06)}
 .menu{top:84px}
+/* bio page spacing */
+.bio{flex:1;min-width:0}
+.bio h4{font-size:16px;font-weight:600;line-height:1.45;color:var(--muted);margin:6px 0 24px}
+.bio p{line-height:1.75}
+.bio p + p{margin-top:18px}
+.bio .bio-quote{margin-top:26px;padding-left:18px;border-left:3px solid #FFA561;font-weight:600;color:var(--plum)}
+/* respect line breaks in project capacity text */
+.cap p{white-space:pre-line}

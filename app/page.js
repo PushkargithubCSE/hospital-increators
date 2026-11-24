@@ -144,7 +144,7 @@ export default function Page() {
         <section className="yc-hero">
           <div className="yc-card">
             <div className="yc-copy">
-              <span className="yc-pill"><b />Hospital consulting, end to end</span>
+              <span className="yc-pill"><b />Insight Advice Create Operate</span>
               <h1>
   <span style={{ display: "block", whiteSpace: "nowrap" }}>Strategically Planned . . .</span>
   <span style={{ display: "block", whiteSpace: "nowrap" }}>Efficiently Operated . . .</span>
@@ -152,10 +152,10 @@ export default function Page() {
 </h1>
               <p className="yc-quote">
                 <h2>Dr. Arun Verma | Director & CEO</h2>
-                <h3>Visionary Healthcare Leader | Strategic Institution Builder | Hospital Management Expert</h3>
+                <h3>Visionary Healthcare Leader | Strategic Institution Builder | Hospital Management Expert | Medical Planner</h3>
 <p>A distinguished healthcare leader and President’s Gold Medalist in Hospital Administration, he brings proven expertise in institutional leadership and healthcare transformation.</p>
 
-<p>With prestigious associations as Faculty at AIIMS, New Delhi, COO of a 500+ bed Greenfield Hospital, and Senior Consultant at PMU, he specialises in Hospital Strategy, Infrastructure Development, Project Leadership, Commissioning, Operational Excellence and Digital Healthcare.</p>
+<p>With prestigious associations as Faculty at AIIMS, New Delhi, COO of a 500+ bed Greenfield Hospital, and Senior Consultant at PMU, he specialises in Hospital Planning & Strategy, Infrastructure Development, Project Leadership, Commissioning, Operational Excellence and Digital Healthcare.</p>
 
 <b>Building Healthcare Institutions. Enabling Excellence. Shaping the Future.</b>
               </p>
@@ -167,7 +167,7 @@ export default function Page() {
 
             <div className="yc-photo">
               <img src="/images/photo.png" alt="Dr. Arun Verma" />
-              <div className="yc-tag"><b>Dr. Arun Verma</b><span>MBBS | DNB (Gold Medalist) | PGDHHM | CDM | MNAMS | CORe (HBS) | Fellow, ISQua | NABH & NQAS Assessor | Guinness Record Holder | Former Faculty, AIIMS New Delhi </span></div>
+              <div className="yc-tag"><b>Dr. Arun Verma</b><span>MBBS | DNB (Gold Medalist) | PGDHHM | CDM | MNAMS | CORe (HBS) | Fellow, ISQua | NABH & NQAS Assessor | Guinness Record Holder | CXO | Former Faculty, AIIMS New Delhi </span></div>
             </div>
           </div>
         </section>
