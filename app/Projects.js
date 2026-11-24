@@ -42,7 +42,7 @@ export default function Projects() {
 
   return (
     <div onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
-      <div className="head rv">
+      <div className="head rv projects-head">
         <h2>Projects done by Dr. Arun Verma</h2>
         <p>A selection of hospital and healthcare projects.</p>
       </div>

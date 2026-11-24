@@ -5,8 +5,7 @@ export const metadata = { title: "Dr. Arun Verma — The Hospital Increators" };
 export default function Page() {
   return (
     <>
-      <SubHero eyebrow="About Us" title="Dr. Arun Verma" lead="MBBS | DNB (Gold Medalist) | PGDHHM | CDM | MNAMS | CORe (Harvard Business School)
-Fellow, International Society for Quality in Health Care (ISQua) | NABH & NQAS Assessor
+      <SubHero eyebrow="About Us" title="Dr. Arun Verma" lead="MBBS | DNB (Gold Medalist) | PGDHHM | CDM | MNAMS | CORe (HBS) | Fellow, ISQua | NABH & NQAS Assessor | Guinness Record Holder | Former Faculty, AIIMS New Delhi
 " />
       <div className="glass panel profile">
         <div className="avatar">AV</div>

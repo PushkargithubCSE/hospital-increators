@@ -60,7 +60,9 @@ export default function Island() {
         onFocus={() => setHover(true)}
         onBlur={() => setHover(false)}
       >
-        <Link href="/#top" className="brand"><Mark />Hospital Increators</Link>
+<Link href="/#top" className="brand" aria-label="The Hospital Increators home">
+  <img src="/images/logo.jpg" alt="The Hospital Increators" className="brand-logo" />
+</Link>
         <nav className="links" aria-label="Main">
           <Link href="/#top">Home</Link>
           <Link

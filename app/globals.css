@@ -140,6 +140,10 @@ section{padding:110px 0 30px;scroll-margin-top:60px}
 
 .head h2{font-size:clamp(32px,5vw,52px);line-height:1.05;color:var(--plum);font-weight:600}
 
+.projects-head{max-width:none}
+
+.projects-head h2{font-size:clamp(14px,4.2vw,48px);white-space:nowrap}
+
 .head p{margin-top:14px;color:var(--muted);font-size:18px;line-height:1.55}
 
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
@@ -232,7 +236,7 @@ footer{max-width:1160px;margin:90px auto 0;padding:30px 22px 50px;display:flex;j
 
 /* services offered accordion */
 
-.acc{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+.acc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start}
 
 .acc-item{border-radius:24px;overflow:hidden;transition:transform .5s var(--spring),box-shadow .4s,background .3s}
 
@@ -278,7 +282,8 @@ footer{max-width:1160px;margin:90px auto 0;padding:30px 22px 50px;display:flex;j
 
 .acc-body ol.roman li::before{content:counter(r,lower-roman) ".";left:6px;font-weight:500;color:var(--plum-2)}
 
-@media(max-width:900px){.acc{grid-template-columns:1fr}}
+@media(max-width:900px){.acc{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.acc{grid-template-columns:1fr}}
 
 
 
@@ -1258,3 +1263,15 @@ button:disabled,
 @media (prefers-reduced-motion: reduce) {
   .aurora i { animation: none; }
 }
+/* espresso service badges (A, B, C ...) */
+.letter{background:#201612 !important;color:#fff !important;box-shadow:0 8px 18px -8px rgba(32,22,18,.6)}
+
+/* footer contact icons */
+.foot-col a.contact{display:flex;align-items:center;gap:10px}
+.foot-col a.contact svg{flex:none;color:#201612;transition:transform .4s var(--spring)}
+.foot-col a.contact:hover svg{transform:scale(1.2) rotate(-6deg)}
+/* image logo in header island */
+.island{height:68px}
+.island .brand-logo{height:54px;width:auto;display:block;mix-blend-mode:multiply;transition:transform .4s var(--spring)}
+.island .brand:hover .brand-logo{transform:scale(1.06)}
+.menu{top:84px}
