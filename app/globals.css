@@ -1384,12 +1384,19 @@ button:disabled,
 
 /* Mobile responsive */
 
+
+/* Mobile responsive */
 @media (max-width: 600px) {
   .yc-brandmark {
     width: calc(100% - 24px);
-    margin: 110px auto 22px;
+    margin: 110px auto 50px;
     border-radius: 12px;
     aspect-ratio: 1370 / 750;
+  }
+
+  .yc-hero {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 

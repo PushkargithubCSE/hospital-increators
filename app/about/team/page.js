@@ -21,7 +21,7 @@ export default function Page() {
     <>
       <SubHero title="Our Team" lead="The people behind your project." />
       <section aria-labelledby="leadership-heading">
-        <h2 id="leadership-heading" style={{ fontSize: 40, marginBottom: 8 }}>Meet Our Leadership</h2>
+        <h2 id="leadership-heading" style={{ fontSize: 40, marginBottom: 8 }}>The Leadership</h2>
         <div className="cols">
           {LEADERSHIP.map(({ name, photo, designation, href }) => (
             <article
@@ -51,7 +51,7 @@ export default function Page() {
       </section>
 
       <section aria-labelledby="team-heading" style={{ marginTop: 40 }}>
-        <h2 id="team-heading">Team</h2>
+        <h2 id="team-heading">The Team</h2>
         <div className="cols">
           {TEAM.map(({ id, name, photo, designation, experience }) => (
             <article key={id} className="glass panel center">

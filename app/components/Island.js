@@ -82,7 +82,7 @@ export default function Island() {
             About Us
           </Link>
           <Link href="/#services">Services</Link>
-                    <Link href="/about/team">Team</Link>
+                    <Link href="/about/team">Our Team</Link>
 
         </nav>
         <Link href="/#consult" className="btn sm">Book a call</Link>
@@ -130,7 +130,7 @@ export default function Island() {
       </div>
     </div>
     <Link href="/#services" onClick={closeMob}>Services</Link>
-    <Link href="/about/team" onClick={closeMob}>Team</Link>
+    <Link href="/about/team" onClick={closeMob}>Our Team</Link>
   </div>
 </div>
     </>

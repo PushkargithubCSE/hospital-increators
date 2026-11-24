@@ -162,7 +162,7 @@ export default function Page() {
               <span className="yc-pill"><b />Insight Advice Create Operate</span>
               <div className="yc-quote">
                 <h2>Dr. Arun Verma | Director & CEO</h2>
-                <h3>Visionary Healthcare Leader | Strategic Institution Builder | Hospital Management Expert | Medical Planner</h3>
+                <h3>Strategic Institution Builder | Hospital Management Expert | Innovative Medical Planner</h3>
                 <p>A distinguished healthcare leader and President’s Gold Medalist in Hospital Administration, he brings proven expertise in institutional leadership and healthcare transformation.</p>
                 <p>With prestigious associations as Faculty at AIIMS, New Delhi, COO of a 500+ bed Greenfield Hospital, and Senior Consultant at PMU, he specialises in Hospital Planning & Strategy, Infrastructure Development, Project Leadership, Commissioning, Operational Excellence and Digital Healthcare.</p>
                 <b>Building Healthcare Institutions. Enabling Excellence. Shaping the Future.</b>
