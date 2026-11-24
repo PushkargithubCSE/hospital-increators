@@ -1383,14 +1383,16 @@ button:disabled,
 }
 
 /* Mobile responsive */
+
 @media (max-width: 600px) {
   .yc-brandmark {
     width: calc(100% - 24px);
-    margin: 85px auto 22px;
+    margin: 110px auto 22px;
     border-radius: 12px;
     aspect-ratio: 1370 / 750;
   }
 }
+
 
 /* Accessibility */
 @media (prefers-reduced-motion: reduce) {
