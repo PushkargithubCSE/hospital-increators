@@ -15,7 +15,7 @@ function Logo() {
     return (
       <span className="foot-fallback"><Mark size={34} />The Hospital Increators</span>
     );
-  return <img src="images/logo.jpg" alt="The Hospital Increators" className="foot-logo" onError={() => setBad(true)} />;
+  return <img src="/images/logo.jpg" alt="The Hospital Increators" className="foot-logo" onError={() => setBad(true)} />;
 }
 
 export default function Footer() {

@@ -145,13 +145,19 @@ export default function Page() {
           <div className="yc-card">
             <div className="yc-copy">
               <span className="yc-pill"><b />Hospital consulting, end to end</span>
-              <h1>Hospitals planned, built and run right.</h1>
+              <h1>
+  <span style={{ display: "block", whiteSpace: "nowrap" }}>Strategically Planned . . .</span>
+  <span style={{ display: "block", whiteSpace: "nowrap" }}>Efficiently Operated . . .</span>
+  <span style={{ display: "block", whiteSpace: "nowrap" }}>Digitally Transformed . . .</span>
+</h1>
               <p className="yc-quote">
-                Dr. Arun Verma is a distinguished healthcare leader with qualifications including MBBS, DNB (Gold Medalist),
-                MBA, and Fellow ISQua, and is a former faculty member at AIIMS, New Delhi. With over 7 years of experience
-                at AIIMS, he has served in key leadership roles, including Faculty and Senior Consultant, Project Management
-                Unit. He brings extensive expertise in hospital planning, infrastructure development, commissioning,
-                operations, and digital transformation.
+                <h2>Dr. Arun Verma | Director & CEO</h2>
+
+A distinguished healthcare strategist, institutional leader & President’s Gold Medalist in Hospital Administration, with extensive experience across premier healthcare institutions.
+
+A former faculty member at AIIMS New Delhi, Senior Consultant with PMU & Chief Operating Officer at 500+ bed greenfield hospital, he has contributed to development of landmark healthcare infrastructure and  their operations. 
+
+He brings a unique confluence of clinical insight, strategic foresight, technical expertise and managerial acumen across hospital planning, infrastructure development, commissioning, operational excellence and digital transformation.
               </p>
               <div className="yc-actions">
                 <a href="#consult" className="yc-btn dark">Book a call</a>
@@ -161,7 +167,7 @@ export default function Page() {
 
             <div className="yc-photo">
               <img src="/images/photo.png" alt="Dr. Arun Verma" />
-              <div className="yc-tag"><b>Dr. Arun Verma</b><span>MBBS | DNB (Gold Medalist) | PGDHHM | CDM | MNAMS | CORe (HBS) | Fellow, ISQua | NABH & NQAS Assessor | Guinness Record Holder</span></div>
+              <div className="yc-tag"><b>Dr. Arun Verma</b><span>MBBS | DNB (Gold Medalist) | PGDHHM | CDM | MNAMS | CORe (HBS) | Fellow, ISQua | NABH & NQAS Assessor | Guinness Record Holder | Former Faculty, AIIMS New Delhi </span></div>
             </div>
           </div>
         </section>
