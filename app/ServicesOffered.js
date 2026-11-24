@@ -10,7 +10,7 @@ const TONES = [
 ];
 
 export default function ServicesOffered() {
-  const [open, setOpen] = useState(0);
+  const [open, setOpen] = useState(-1);
   return (
     <div className="offered">
       <div className="head rv" style={{ marginTop: 90, marginBottom: 28 }}>

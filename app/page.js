@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import ServicesOffered from "./ServicesOffered";
 import Projects from "./Projects";
 import Link from "next/link";
@@ -134,31 +134,39 @@ function Form() {
 
 export default function Page() {
   useReveal();
-  const [showMore, setShowMore] = useState(false);
   return (
     <>
       <div className="aurora"><i /><i /><i /><i /></div>
       <Island />
-      <main id="top">
-       
+      <main>
+        <div className="yc-brandmark">
+          <div className="yc-slider">
+            <div className="yc-slide">
+              <img
+                src="/images/bg.png"
+                alt="Building Hospitals. Transforming Healthcare. Shaping Tomorrow."
+              />
+            </div>
+            <div className="yc-slide">
+              <img
+                src="/images/services.png"
+                alt="The Hospital Increators - Services and Expertise"
+              />
+            </div>
+          </div>
+        </div>
+
         <section className="yc-hero">
           <div className="yc-card">
             <div className="yc-copy">
               <span className="yc-pill"><b />Insight Advice Create Operate</span>
-              <h1>
-  <span style={{ display: "block", whiteSpace: "nowrap" }}>Strategically Planned . . .</span>
-  <span style={{ display: "block", whiteSpace: "nowrap" }}>Efficiently Operated . . .</span>
-  <span style={{ display: "block", whiteSpace: "nowrap" }}>Digitally Transformed . . .</span>
-</h1>
-              <p className="yc-quote">
+              <div className="yc-quote">
                 <h2>Dr. Arun Verma | Director & CEO</h2>
                 <h3>Visionary Healthcare Leader | Strategic Institution Builder | Hospital Management Expert | Medical Planner</h3>
-<p>A distinguished healthcare leader and President’s Gold Medalist in Hospital Administration, he brings proven expertise in institutional leadership and healthcare transformation.</p>
-
-<p>With prestigious associations as Faculty at AIIMS, New Delhi, COO of a 500+ bed Greenfield Hospital, and Senior Consultant at PMU, he specialises in Hospital Planning & Strategy, Infrastructure Development, Project Leadership, Commissioning, Operational Excellence and Digital Healthcare.</p>
-
-<b>Building Healthcare Institutions. Enabling Excellence. Shaping the Future.</b>
-              </p>
+                <p>A distinguished healthcare leader and President’s Gold Medalist in Hospital Administration, he brings proven expertise in institutional leadership and healthcare transformation.</p>
+                <p>With prestigious associations as Faculty at AIIMS, New Delhi, COO of a 500+ bed Greenfield Hospital, and Senior Consultant at PMU, he specialises in Hospital Planning & Strategy, Infrastructure Development, Project Leadership, Commissioning, Operational Excellence and Digital Healthcare.</p>
+                <b>Building Healthcare Institutions. Enabling Excellence. Shaping the Future.</b>
+              </div>
               <div className="yc-actions">
                 <a href="#consult" className="yc-btn dark">Book a call</a>
                 <Link href="/about/dr-arun-verma" className="yc-btn line">Read more →</Link>
