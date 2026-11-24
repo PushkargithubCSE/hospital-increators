@@ -9,11 +9,11 @@ const LEADERSHIP = [
 ];
 
 const TEAM = [
-  { id: "team-member-1", name: "Ar. Varun Sharma", photo: "/images/t1.png", designation: "Senior Medical Architect", experience: "Years of experience" },
-  { id: "team-member-3", name: "Ar. Hirdesh Sharma", photo: "/images/t3.png", designation: "Senior Medical Architect", experience: "Years of experience" },
-  { id: "team-member-2", name: "Kuldeep Singh", photo: "/images/t2.png", designation: "Chartered Accountant | Healthcare Financial Consultant", experience: "Years of experience" },
-  { id: "team-member-4", name: "Dr. Harshita Kapil", photo: "/images/t4.png", designation: "BDS, PGDM (Healthcare Management)- IIHMR Delhi", experience: "Years of experience" },
-  { id: "team-member-5", name: "Name", photo: "/images/t5.png", designation: "Designation", experience: "Years of experience" },
+  { id: "team-member-1", name: "Ar. Varun Sharma", photo: "/images/t1.png", designation: "Senior Medical Architect" },
+  { id: "team-member-3", name: "Ar. Hirdesh Sharma", photo: "/images/t3.png", designation: "Senior Medical Architect" },
+  { id: "team-member-2", name: "Kuldeep Singh", photo: "/images/t2.png", designation: "Chartered Accountant | Healthcare Financial Consultant" },
+  { id: "team-member-4", name: "Dr. Harshita Kapil", photo: "/images/t4.png", designation: "BDS, PGDM (Healthcare Management)- IIHMR Delhi" },
+  { id: "team-member-5", name: "Pushkar Chandra", photo: "/images/t5.png", designation: "IT Analyst | B.Tech CSE " },
 ];
 
 export default function Page() {
