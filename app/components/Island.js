@@ -25,6 +25,9 @@ export default function Island() {
   const [scrolled, setScrolled] = useState(false);
   const [hover, setHover] = useState(false);
   const [menu, setMenu] = useState(false);
+  const [mob, setMob] = useState(false);
+  const [mobAbout, setMobAbout] = useState(false);
+  const closeMob = () => { setMob(false); setMobAbout(false); };
   const [x, setX] = useState(0);
   const aboutRef = useRef(null);
   const timer = useRef(null);
@@ -83,7 +86,11 @@ export default function Island() {
 
         </nav>
         <Link href="/#consult" className="btn sm">Book a call</Link>
+        <button className="island-toggle" aria-label="Menu" aria-expanded={mob} onClick={() => setMob(!mob)}>
+  <span /><span />
+</button>
       </header>
+
 
       <div
         className={`menu ${menu ? "open" : ""}`}
@@ -109,6 +116,23 @@ export default function Island() {
           ))}
         </div>
       </div>
+      <div className={`mob-menu ${mob ? "open" : ""}`}>
+  <div className="mob-panel">
+    <Link href="/#top" onClick={closeMob}>Home</Link>
+    <button className="mob-about" aria-expanded={mobAbout} onClick={() => setMobAbout(!mobAbout)}>
+      About Us <i />
+    </button>
+    <div className={`mob-sub ${mobAbout ? "open" : ""}`}>
+      <div>
+        {ABOUT_LINKS.map((l) => (
+          <Link key={l.href} href={l.href} onClick={closeMob}>{l.label}</Link>
+        ))}
+      </div>
+    </div>
+    <Link href="/#services" onClick={closeMob}>Services</Link>
+    <Link href="/about/team" onClick={closeMob}>Team</Link>
+  </div>
+</div>
     </>
   );
 }
