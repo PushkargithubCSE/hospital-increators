@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata = {
   metadataBase: new URL("https://thehospitalincreators.com"),
 
-  title: "The Hospital Increators | Healthcare Consulting",
+  title: "The Hospital Increators",
 
   description:
     "Strategically Planned. Efficiently Operated. Digitally Transformed.",
@@ -13,16 +13,18 @@ export const metadata = {
   openGraph: {
     title: "The Hospital Increators",
     description:
-      "Insight. Advise. Create. Operate.",
+      "Strategically Planned. Efficiently Operated. Digitally Transformed.",
     url: "https://thehospitalincreators.com/",
     siteName: "The Hospital Increators",
     type: "website",
+
     images: [
       {
-        url: "/images/logo.png",
+        url: "/images/logo.jpg",
         width: 1200,
         height: 1200,
-        alt: "The Hospital Increators - Official Logo",
+        alt: "The Hospital Increators Official Logo",
+        type: "image/jpg",
       },
     ],
   },
@@ -30,8 +32,11 @@ export const metadata = {
   twitter: {
     card: "summary",
     title: "The Hospital Increators",
-    description: "Insight. Advise. Create. Operate.",
-    images: ["/images/logo.png"],
+    description:
+      "Strategically Planned. Efficiently Operated. Digitally Transformed.",
+    images: [
+      "/images/logo.jpg",
+    ],
   },
 };
 
