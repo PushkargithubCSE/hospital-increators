@@ -140,20 +140,31 @@ export default function Page() {
       <Island />
       <main>
         <div className="yc-brandmark">
-          <div className="yc-slider">
-            <div className="yc-slide">
-              <img
-                src="/images/bg.png"
-                alt="Building Hospitals. Transforming Healthcare. Shaping Tomorrow."
-              />
-            </div>
-            <div className="yc-slide">
-              <img
-                src="/images/services.png"
-                alt="The Hospital Increators - Services and Expertise"
-              />
-            </div>
-          </div>
+        
+<div className="yc-slider">
+
+  {/* Slide 1 */}
+  <div className="yc-slide">
+    <img src="/images/bg.png" alt="Building Hospitals" />
+  </div>
+
+  {/* Slide 2 */}
+  <div className="yc-slide">
+    <img src="/images/services.png" alt="Services and Expertise" />
+  </div>
+
+  {/* Slide 3 */}
+  <div className="yc-slide">
+    <img src="/images/company.png" alt="A Company by Former AIIMS Faculty" />
+  </div>
+
+  {/* Slide 4 - Duplicate of first image */}
+  <div className="yc-slide">
+    <img src="/images/bg.png" alt="Building Hospitals" />
+  </div>
+
+</div>
+
         </div>
 
         <section className="yc-hero">
